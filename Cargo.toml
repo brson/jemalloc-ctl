@@ -1,6 +1,6 @@
 [package]
 name = "jemalloc-ctl"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Steven Fackler <sfackler@gmail.com>"]
 description = "jemalloc control and introspection"
 license = "MIT/Apache-2.0"
@@ -10,7 +10,7 @@ categories = ["api-bindings", "development-tools", "memory-management"]
 keywords = ["jemalloc", "allocators"]
 
 [dependencies]
-jemalloc-sys = { version = "0.1.7", default-features = false }
+jemalloc-sys = { version = "0.3.0", default-features = false }
 libc = "0.2"
 
 [dev-dependencies]
